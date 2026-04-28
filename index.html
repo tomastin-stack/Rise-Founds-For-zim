@@ -1,0 +1,117 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hope For Zimbabwe</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="top">
+
+<img src="images/logo.png" class="logo">
+
+<h1>Hope For Zimbabwe</h1>
+
+<div class="buttons">
+<button onclick="showTab(1)" class="btn active">Who We Are</button>
+<button onclick="showTab(2)" class="btn">Problem & Solution</button>
+<button onclick="showTab(3)" class="btn">Support Us</button>
+</div>
+
+</header>
+
+<!-- TAB 1 -->
+<section id="tab1" class="tab show">
+
+<div class="box">
+
+<img src="images/community.jpg" class="img">
+
+<h2>Who Are We?</h2>
+
+<p>
+We are a small group of students who believe we can find a way to help people in Zimbabwe, even if they are on the other side of the world.
+
+We noticed that many people do not have good living conditions, so we decided <b>to find</b> a way to help.
+
+Helping others is our main goal.
+</p>
+
+</div>
+</section>
+
+<!-- TAB 2 -->
+<section id="tab2" class="tab">
+
+<div class="grid">
+
+<div class="box">
+
+<img src="images/poverty.jpg" class="img">
+
+<h2>The Problem</h2>
+
+<p>
+Many people in Zimbabwe face serious economic problems. Some children must work at a young age, there are food shortages, and many families do not have access to education.
+</p>
+
+</div>
+
+<div class="box">
+
+<img src="images/engineers.jpg" class="img">
+
+<h2>Our Solution</h2>
+
+<p>
+We are searching for funds to build houses and create jobs, allowing families to earn money and improve their quality of life.
+
+We are focused on improving living conditions.
+</p>
+
+</div>
+
+</div>
+
+<div class="message">
+With your support, we can transform homes and create hope for entire families.
+</div>
+
+</section>
+
+<!-- TAB 3 -->
+<section id="tab3" class="tab">
+
+<div class="box">
+
+<img src="images/kids.jpg" class="img">
+
+<h2>Be Part Of The Change</h2>
+
+<p>Enter an amount between 10.5064 and 35,000</p>
+
+<input type="number" id="money" placeholder="Write amount">
+
+<button onclick="donate()" class="donate">
+Donate
+</button>
+
+<div class="bar-bg">
+<div id="bar"></div>
+</div>
+
+<h3 id="text"></h3>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
